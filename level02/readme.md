@@ -69,11 +69,11 @@ We can see that from 22 to 26, we have a sequence of elements, and our flags con
 Knowing that we are in little endian, if we convert it to ASCII, we retrieve our flag.
 
 ```
-756e505234376848 become "H7RnPue"
-45414a3561733951 become "Q9sa5JAA"
+756e505234376848 become "Hh74RPnu"
+45414a3561733951 become "Q9sa5JAE"
 377a7143574e6758 become "XgNWCqz7"
 354a35686e475873 become "sXGnh5J5"
-48336750664b394d become "8H3PfK9M"
+48336750664b394d become "M9KfPg3H"
 ```
 
 flag: Hh74RPnuQ9sa5JAEXgNWCqz7sXGnh5J5M9KfPg3H
