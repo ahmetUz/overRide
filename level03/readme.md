@@ -31,8 +31,8 @@ Let's take the first letter Q; we want to make it equal to C. Q = 01010001, and 
 
 ```
 Q = 01010001 (81)
-	00010010 (18)
-	--------
+    00010010 (18)
+    --------
 C = 01000011 (67)
 ```
 the key is 18 PERFECT! Now, we need to ensure that the subtraction in the function test results in 18 -> 322424845 - 18 = 322424827.
