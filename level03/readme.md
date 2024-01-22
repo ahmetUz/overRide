@@ -1,4 +1,4 @@
-This level takes a number as an argument.
+This level takes a number as input.
 
 ```c
 	printf("Password:");
