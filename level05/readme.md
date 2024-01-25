@@ -50,7 +50,7 @@ D85D = 55389 low
 ```
 
 So for the low bytes, we will write 55388 - 8 into \xe0\x97\x04\x08. We subtract 8 because we will write the target addresses.
-And for the high bytes we make a simple substraction 65535 - 55389 = 10146 Because, by the time we write the higher bytes, we would have already written the lower ones, and since %n counts the number of bytes already written, we will perform a subtraction to eliminate the bytes already written.
+And for the high bytes we make a simple substraction 65535 - 55389 = 10146 Because, by the time we write the higher bytes, we would have already written the lower ones, and since %n counts the number of bytes already written, we will perform a subtraction to eliminate the bytes already written. Weill write 10146 into \xe2\x97\x04\x08
 
 This gives us the final result:
 ```
