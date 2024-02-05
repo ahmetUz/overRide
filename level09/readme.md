@@ -79,7 +79,7 @@ Program received signal SIGSEGV, Segmentation fault.
 (gdb) x/s $rsp
 0x7fffffffe5d8:  "6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4"
 ```
-<span style="color:red">6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4</span> We can see that this string of characters starts from 200 of the pattern.
+<font color="red">6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4</font> We can see that this string starts from 200 of the pattern.
 
 offset = 200
 
