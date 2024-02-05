@@ -77,8 +77,9 @@ To find the offset, we use a pattern generator. https://wiremask.eu/tools/buffer
 Program received signal SIGSEGV, Segmentation fault.
 0x0000555555554931 in handle_msg ()
 (gdb) x/s $rsp
-0x7fffffffe5d8:  "<span style="color:red">6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4</span>" We can see that this string of characters starts from 200 of the pattern.
+0x7fffffffe5d8:  "6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4"
 ```
+<span style="color:red"> "6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4"</span> We can see that this string of characters starts from 200 of the pattern.
 
 offset = 200
 
